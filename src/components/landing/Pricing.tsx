@@ -46,7 +46,7 @@ export function Pricing() {
                     R$ 19,90
                 </p>
                 <Button asChild size="lg" className="mt-8 w-full font-bold text-lg py-7 shadow-lg shadow-primary/30 transform transition-transform hover:scale-105">
-                  <a href="https://pay.hotmart.com/P102692813C?checkoutMode=10">QUERO COMPRAR AGORA!</a>
+                  <a href="https://digitalpay.mycartpanda.com/checkout/202229851:1">QUERO COMPRAR AGORA!</a>
                 </Button>
                 <p className="mt-4 text-sm text-muted-foreground">Compra 100% segura. 30 dias de garantia.</p>
             </div>
