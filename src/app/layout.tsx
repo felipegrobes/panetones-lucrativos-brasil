@@ -53,7 +53,7 @@ export default function RootLayout({
         </main>
         <Script id="back-redirect" strategy="afterInteractive">
           {`
-            var back_redirect_link = 'https://panetones-amas.netlify.app/';
+            var back_redirect_link = 'https://back-panetones-brasil-front.netlify.app/';
             var is_internal_navigation = false; // Flag para rastrear cliques em âncoras internas
             var redirect_executed = false; // Flag para garantir que o redirecionamento só ocorra uma vez
 
