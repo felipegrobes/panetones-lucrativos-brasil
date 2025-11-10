@@ -14,7 +14,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'Panettone Profits',
-  description: 'Aprende las recetas más rentables y fáciles de panetones y gana dinero esta Navidad.',
+  description: 'Aprenda as receitas de panetones gourmet mais lucrativas e fáceis e ganhe dinheiro neste Natal.',
   icons: {
     icon: '/favicon.ico',
   }
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={cn(poppins.variable)}>
+    <html lang="pt-BR" className={cn(poppins.variable)}>
       <body>
         <Script id="fb-pixel" strategy="afterInteractive">
           {`

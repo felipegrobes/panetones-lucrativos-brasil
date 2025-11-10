@@ -13,9 +13,9 @@ const recipes = [
         alt: "Panetone de Chocolate"
     },
     {
-        name: "Panetones Rellenos Gourmet",
+        name: "Chocotone Gourmet",
         image: "/images/relleno.webp",
-        alt: "Panetone Recheado"
+        alt: "Chocotone Gourmet"
     },
 ];
 
@@ -25,7 +25,7 @@ export function Pitch() {
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl">
-            Mira una parte de lo que recibirás en los libros:
+            Veja um pouco do que você vai receber nos livros:
           </h2>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
@@ -48,7 +48,7 @@ export function Pitch() {
         </div>
         <div className="mt-8 text-center">
             <p className="text-xl font-semibold text-foreground/90">
-                Y mucho más...
+                E muito mais...
             </p>
         </div>
       </div>

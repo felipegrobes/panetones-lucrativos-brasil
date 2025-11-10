@@ -4,18 +4,18 @@ import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/ca
 const features = [
   {
     icon: BookCopy,
-    title: '+100 Recetas de Panetones Rentables',
-    description: 'Más de 100 recetas de panetones gourmet deliciosos que se venden muchísimo.',
+    title: '+100 Receitas de Panetones Lucrativos',
+    description: 'Mais de 100 receitas de panetones gourmet deliciosos e que vendem muito.',
   },
   {
     icon: Target,
-    title: 'Tabla de Precios',
-    description: 'No tienes que preocuparte por la fijación de precios, nosotros te ayudaremos para que pongas el precio justo y obtengas grandes ganancias.',
+    title: 'Tabela de Preços',
+    description: 'Não precisa se preocupar com a precificação, nós iremos te ajudar a colocar o preço justo para que tenha lucro.',
   },
   {
     icon: Wallet,
-    title: 'Guía para Vender Panetones',
-    description: 'Te enseñaremos paso a paso las mejores estrategias de venta para que vendas mucho.',
+    title: 'Guia para Vender Panetones',
+    description: 'Vamos te ensinar o passo a passo das melhores estratégias de vendas para você vender muito nesse Natal.',
   },
 ];
 
@@ -25,10 +25,10 @@ export function Features() {
       <div className="container">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl">
-            ¿POR QUÉ DEBERÍAS COMPRAR?
+            POR QUE VOCÊ DEVERIA COMPRAR?
           </h2>
           <p className="mt-4 text-lg text-foreground/80">
-            Este combo fue cuidadosamente creado para tu éxito en esta Navidad:
+            Este combo foi calculadamente criado para o seu sucesso neste Natal:
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">

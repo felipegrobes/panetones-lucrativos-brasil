@@ -1,9 +1,9 @@
 import { CheckIcon, CrossIcon } from './icons';
 
 const pains = [
-  '¿Ver pasar la Navidad y no vender como deberías?',
-  '¿Depender siempre de las mismas recetas que ya no se venden tanto?',
-  '¿Perder la oportunidad de aprovechar la época más lucrativa del año?',
+  'Ver o Natal passar e não vender como deveria?',
+  'Depender sempre das mesmas receitas que já não vendem tanto?',
+  'Perder a oportunidade de aproveitar a época mais lucrativa do ano?',
 ];
 
 export function PainPoints() {
@@ -13,7 +13,7 @@ export function PainPoints() {
         <div className="mx-auto grid max-w-5xl gap-12 md:grid-cols-2">
           <div className="space-y-6">
             <h2 className="font-headline text-3xl font-bold text-primary">
-              ¿Estás cansado(a) de...
+              Você Está Cansado(a) de...
             </h2>
             <ul className="space-y-4">
               {pains.map((pain, i) => (
@@ -31,10 +31,10 @@ export function PainPoints() {
                 <CheckIcon className="h-8 w-8" />
             </div>
             <h3 className="mt-6 font-headline text-3xl font-bold text-primary">
-              ¡Ha llegado el momento de cambiar eso!
+              Chegou a hora de mudar isso!
             </h3>
             <p className="mt-4 text-lg text-foreground/80">
-              ¡Con nuestras variedades de recetas gourmet puedes transformar esta Navidad en la mejor de todas!
+              Com nossas variedades de receitas gourmet, você pode transformar este Natal no melhor de todos!
             </p>
           </div>
         </div>

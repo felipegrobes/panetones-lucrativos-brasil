@@ -11,16 +11,16 @@ export function Guarantee() {
           </div>
           <div>
             <h2 className="font-headline text-3xl font-bold text-primary">
-              ¡Prueba primero y decide después!
+              Teste Primeiro e Decida Depois!
             </h2>
             <p className="mt-4 text-lg text-foreground/80">
-              Puedes comprar con total seguridad. Si el contenido descrito arriba no es el mismo que recibes, tendrás 30 días de garantía y te devolveremos tu dinero sin complicaciones.
+              Você pode comprar com total segurança. Se o conteúdo descrito acima não for o mesmo que você receber, você terá 30 dias de garantia e devolveremos seu dinheiro sem complicações.
             </p>
           </div>
         </div>
         <div className="mt-8 flex items-center justify-center gap-x-6">
           <Button asChild size="lg" className="font-bold shadow-lg shadow-primary/30 transform transition-transform hover:scale-105">
-            <a href="#pricing">¡QUIERO COMPRAR!</a>
+            <a href="#pricing">QUERO COMPRAR!</a>
           </Button>
         </div>
       </div>

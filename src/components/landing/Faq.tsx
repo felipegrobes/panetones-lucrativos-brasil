@@ -8,20 +8,20 @@ import { Button } from '@/components/ui/button';
 
 const faqs = [
   {
-    question: '¿Cómo recibiré los libros después de la compra?',
-    answer: 'Una vez realizada la compra, recibirás un enlace de acceso directamente en tu correo electrónico. Si necesitas ayuda, escríbenos a: digitalpay.ofc@gmail.com',
+    question: 'Como receberei os livros após a compra?',
+    answer: 'Assim que a compra for concluída, você receberá um link de acesso diretamente no seu e-mail. Se precisar de ajuda, escreva para: digitalpay.ofc@gmail.com',
   },
   {
-    question: '¿Los libros son físicos o digitales?',
-    answer: 'Los libros son 100% digitales (formato eBook PDF). Puedes leerlos en tu celular, tablet o computadora, donde y cuando quieras.',
+    question: 'Os livros são físicos ou digitais?',
+    answer: 'Os livros são 100% digitais (formato eBook PDF). Você pode lê-los no celular, tablet ou computador, onde e quando quiser.',
   },
   {
-    question: '¿Es seguro comprar aquí?',
-    answer: 'Sí, es 100% seguro. La transacción está protegida por la tecnología de seguridad avanzada de Hotmart (empresa líder en pagos y alojamiento de productos digitales).',
+    question: 'É seguro comprar aqui?',
+    answer: 'Sim, é 100% seguro! A transação é protegida por tecnologia de segurança avançada da Cartpanda (uma empresa de pagamentos e hospedagens de produtos online do Brasil).',
   },
   {
-    question: '¿Y si no me gusta el contenido?',
-    answer: 'Tienes 30 días de garantía incondicional. Si no te gusta por cualquier motivo, te devolvemos el 100% de tu dinero, sin trámites ni complicaciones.',
+    question: 'E se eu não gostar do conteúdo?',
+    answer: 'Você tem 30 dias de garantia incondicional. Se não gostar por qualquer motivo, devolvemos 100% do seu dinheiro, sem burocracia nem complicações.',
   },
 ];
 
@@ -31,7 +31,7 @@ export function Faq() {
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl">
-            Preguntas Frecuentes
+            Perguntas Frequentes
           </h2>
         </div>
         <Accordion type="single" collapsible className="mx-auto mt-12 max-w-3xl space-y-4">
@@ -48,7 +48,7 @@ export function Faq() {
         </Accordion>
         <div className="mt-12 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" className="font-bold shadow-lg shadow-primary/30 transform transition-transform hover:scale-105">
-                <a href="#pricing">¡Resolví mis dudas, quiero comprar!</a>
+                <a href="#pricing">Tirei minhas dúvidas, quero comprar!</a>
             </Button>
         </div>
       </div>
