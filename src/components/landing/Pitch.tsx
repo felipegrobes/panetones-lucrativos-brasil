@@ -35,7 +35,8 @@ export function Pitch() {
                 src={recipe.image} 
                 alt={recipe.alt} 
                 width={300} 
-                height={300} 
+                height={300}
+                loading="lazy"
                 className="object-cover w-full h-64 transition-transform duration-300 transform group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
