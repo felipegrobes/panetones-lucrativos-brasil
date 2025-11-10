@@ -9,7 +9,11 @@ import { Button } from '@/components/ui/button';
 const faqs = [
   {
     question: 'Como receberei os livros após a compra?',
-    answer: 'Assim que a compra for concluída, você receberá um link de acesso diretamente no seu e-mail. Se precisar de ajuda, escreva para: digitalpay.ofc@gmail.com',
+    answer: (
+      <>
+        Assim que a compra for concluída, você receberá um link de acesso diretamente no seu e-mail. Se precisar de ajuda, escreva para: <span className="font-bold">digitalpay.ofc@gmail.com</span>
+      </>
+    ),
   },
   {
     question: 'Os livros são físicos ou digitais?',
