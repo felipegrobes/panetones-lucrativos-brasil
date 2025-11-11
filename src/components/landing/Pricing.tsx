@@ -1,5 +1,8 @@
-import { Check } from 'lucide-react';
+"use client";
+
+import { Check, Copy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useToast } from '@/hooks/use-toast';
 
 const offerItems = [
   '+100 Receitas de Panetones Lucrativos',
@@ -14,6 +17,16 @@ const offerItems = [
 ];
 
 export function Pricing() {
+  const { toast } = useToast();
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText("blackfriday");
+    toast({
+      title: "Cupom Copiado!",
+      description: 'O cupom "blackfriday" foi copiado.',
+    });
+  };
+
   return (
     <section id="pricing" className="py-16 sm:py-24" style={{ backgroundColor: '#921C1C' }}>
       <div className="container px-4 sm:px-6">
@@ -39,6 +52,13 @@ export function Pricing() {
               </ul>
             </div>
             <div className="flex flex-col justify-center bg-background p-6 sm:p-8 text-center">
+                <div className="mb-4 text-center">
+                  <p className="text-sm text-muted-foreground">R$10 de desconto com o cupom:</p>
+                  <Button variant="outline" size="sm" onClick={handleCopy} className="mt-2 bg-accent/10 border-accent/50 text-accent-foreground hover:bg-accent/20">
+                    blackfriday
+                    <Copy className="ml-2 h-4 w-4" />
+                  </Button>
+                </div>
                 <p className="mt-4 text-xl text-muted-foreground line-through">
                     De R$ 150,00
                 </p>
