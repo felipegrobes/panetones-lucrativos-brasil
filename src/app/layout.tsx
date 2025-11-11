@@ -4,6 +4,7 @@ import Script from 'next/script';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { cn } from '@/lib/utils';
+import { PromoBanner } from '@/components/landing/PromoBanner';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -47,6 +48,7 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=683636158144975&ev=PageView&noscript=1"
           />
         </noscript>
+        <PromoBanner />
         <main className="font-body antialiased">
           {children}
           <Toaster />
