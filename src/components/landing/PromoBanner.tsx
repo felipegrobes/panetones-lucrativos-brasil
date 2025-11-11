@@ -16,7 +16,7 @@ export function PromoBanner() {
         <p className="pr-6 sm:pr-0">
           Só no mês de novembro: Finalize sua compra com o cupom
           <span className="mx-1 inline-block rounded-md bg-white px-2 py-0.5 font-bold text-primary shadow">
-            blackfriday
+            "blackfriday"
           </span>
           e ganhe R$10 de desconto.
         </p>
