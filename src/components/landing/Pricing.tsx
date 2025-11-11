@@ -39,7 +39,6 @@ export function Pricing() {
               </ul>
             </div>
             <div className="flex flex-col justify-center bg-background p-6 sm:p-8 text-center">
-                <p className="font-semibold text-muted-foreground">Acesso Vitalício</p>
                 <p className="mt-4 text-xl text-muted-foreground line-through">
                     De R$ 150,00
                 </p>
