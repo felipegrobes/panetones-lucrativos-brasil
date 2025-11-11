@@ -24,6 +24,7 @@ export function Pricing() {
     toast({
       title: "Cupom Copiado!",
       description: 'O cupom "blackfriday" foi copiado.',
+      variant: "destructive",
     });
   };
 
