@@ -18,7 +18,7 @@ export function PromoBanner() {
           <span className="mx-1 inline-block rounded-md bg-white px-2 py-0.5 font-bold text-primary shadow">
             blackfriday
           </span>
-          e ganhe R$50 de desconto.
+          e ganhe R$10 de desconto.
         </p>
         <button
           onClick={() => setIsVisible(false)}
