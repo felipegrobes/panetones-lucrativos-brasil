@@ -13,7 +13,7 @@ export function PromoBanner() {
   return (
     <div className="relative bg-primary text-primary-foreground">
       <div className="container mx-auto flex items-center justify-center px-4 py-2 text-center text-sm font-medium">
-        <p>
+        <p className="pr-6 sm:pr-0">
           Só no mês de novembro: Finalize sua compra com o cupom
           <span className="mx-1 inline-block rounded-md bg-white px-2 py-0.5 font-bold text-primary shadow">
             blackfriday
