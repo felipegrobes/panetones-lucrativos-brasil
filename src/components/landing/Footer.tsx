@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="bg-primary/5 py-8">
       <div className="container text-center text-sm text-foreground/60">
-        <p>&copy; {year} @recetasrentables_ofc Todos os direitos reservados.</p>
+        <p>Digital Pay - Todos os direitos reservados &copy; {year}</p>
         <p className="mt-2">
             Uma empresa dedicada ao seu sucesso culinário e financeiro.
         </p>
