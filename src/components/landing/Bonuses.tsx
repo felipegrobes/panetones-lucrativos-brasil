@@ -51,9 +51,7 @@ export function Bonuses() {
           {bonuses.map((bonus) => (
             <Card key={bonus.number} className="flex flex-col bg-card shadow-sm text-center transition-transform duration-300 transform hover:scale-105 hover:shadow-lg border border-primary/20">
               <CardHeader className="flex-grow">
-                <div className="mb-4 flex justify-center">
-                    <Image src={bonus.image} alt={bonus.title} width={bonus.width} height={bonus.height} loading="lazy" className="object-contain rounded-xl shadow-lg shadow-primary/20" />
-                </div>
+                <Image src={bonus.image} alt={bonus.title} width={bonus.width} height={bonus.height} loading="lazy" className="object-contain rounded-xl shadow-lg shadow-primary/20 mx-auto mb-4" />
                 <CardTitle className="font-headline text-xl text-center">Bônus #{bonus.number}: {bonus.title}</CardTitle>
                 <CardDescription className="pt-2 text-base text-foreground/70 text-center">{bonus.description}</CardDescription>
               </CardHeader>
