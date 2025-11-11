@@ -20,6 +20,14 @@ const faqs = [
     answer: 'Os livros são 100% digitais (formato eBook PDF). Você pode lê-los no celular, tablet ou computador, onde e quando quiser.',
   },
   {
+    question: 'Quando eu receberei os bônus?',
+    answer: 'Os bônus serão liberados de forma automática assim que finalizar a compra.',
+  },
+  {
+    question: 'Por quanto tempo terei acesso?',
+    answer: 'O acesso é Vitalício.',
+  },
+  {
     question: 'É seguro comprar aqui?',
     answer: 'Sim, é 100% seguro! A transação é protegida por tecnologia de segurança avançada da Cartpanda (uma empresa de pagamentos e hospedagens de produtos online do Brasil).',
   },
