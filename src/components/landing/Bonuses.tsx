@@ -5,7 +5,7 @@ import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/ca
 
 const bonuses = [
   {
-    image: '/images/regalo1.webp',
+    image: '/images/fitness.webp',
     title: '15 Receitas de Panetones Fitness',
     description: 'Aumente suas vendas com panetones saudáveis para pessoas que desejam cuidar da saúde.',
     number: 1,
@@ -13,7 +13,7 @@ const bonuses = [
     height: 144,
   },
   {
-    image: '/images/regalo2.webp',
+    image: '/images/embalegens.webp',
     title: 'Guia de Embalagens Elegantes e Lucrativas',
     description: 'Aumente sua margem de lucro com embalagens sofisticadas e econômicas.',
     number: 2,
@@ -21,7 +21,7 @@ const bonuses = [
     height: 144,
   },
   {
-    image: '/images/regalo3.webp',
+    image: '/images/planilha.webp',
     title: 'Planilha de Custos + Simulador de Lucros',
     description: 'Saiba exatamente quanto está gastando e quanto está lucrando em cada venda.',
     number: 3,
@@ -29,7 +29,7 @@ const bonuses = [
     height: 144,
   },
   {
-    image: '/images/regalo4.webp',
+    image: '/images/instagram.webp',
     title: 'Instagram Lucrativo',
     description: 'Venda mais no Instagram e atraia novos clientes com estratégias de marketing comprovadas.',
     number: 4,
