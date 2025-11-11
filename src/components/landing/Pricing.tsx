@@ -42,11 +42,11 @@ export function Pricing() {
                 <p className="mt-4 text-xl text-muted-foreground line-through">
                     De R$ 150,00
                 </p>
-                <p className="mt-1 text-lg text-muted-foreground">por apenas 4x de</p>
+                <p className="mt-1 text-lg text-muted-foreground">por apenas 6x de</p>
                 <p className="font-headline text-6xl font-bold text-primary">
-                    R$ 5,53
+                    R$ 5,69
                 </p>
-                <p className="text-sm text-muted-foreground mt-1">(ou R$ 19,90 à vista!)</p>
+                <p className="text-sm text-muted-foreground mt-1">(ou R$ 29,90 à vista!)</p>
                 <Button asChild size="lg" className="mt-8 w-full font-bold text-lg py-7 shadow-lg shadow-primary/30 transform transition-transform hover:scale-105">
                   <a href="https://digitalpay.mycartpanda.com/checkout/202229851:1">QUERO COMPRAR AGORA!</a>
                 </Button>
