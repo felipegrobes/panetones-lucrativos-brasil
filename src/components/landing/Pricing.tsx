@@ -9,6 +9,8 @@ const offerItems = [
   'Guia de Embalagens Elegantes e Lucrativas',
   'Planilha de Custos + Simulador de Lucros',
   'Instagram Lucrativo',
+  'Acesso Vitalício',
+  'Suporte Exclusivo',
 ];
 
 export function Pricing() {
