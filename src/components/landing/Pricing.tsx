@@ -43,7 +43,7 @@ export function Pricing() {
                     De R$ 150,00
                 </p>
                 <p className="mt-1 text-lg text-muted-foreground">por apenas 4x de</p>
-                <p className="font-headline text-5xl font-bold text-primary">
+                <p className="font-headline text-6xl font-bold text-primary">
                     R$ 5,53
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">(ou R$ 19,90 à vista!)</p>
